@@ -1,0 +1,937 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 720vh;
+  background-color: white;
+}
+
+body header {
+  width: 100%;
+  height: 110vh;
+  background-color: #072d51;
+}
+
+body header .wrapper {
+  width: 80%;
+  height: 100vh;
+  background-color: #072d51;
+  margin: 0 auto;
+}
+
+body header .wrapper nav {
+  width: 100%;
+  height: 150px;
+  background-color: #072d51;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .wrapper nav .nav__logo {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .wrapper nav .nav__logo h1 {
+  color: white;
+  font-size: 28px;
+  margin: 5px 0 0 15px;
+}
+
+body header .wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .wrapper nav ul .active a {
+  text-decoration: underline;
+  color: white;
+}
+
+body header .wrapper nav ul li {
+  padding: 20px;
+  color: #dbd3d3;
+  font-size: 20px;
+}
+
+body header .wrapper nav ul li a {
+  color: #dbd3d3;
+}
+
+body header .wrapper nav ul li a:hover {
+  color: white;
+}
+
+body header .wrapper nav button {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid transparent;
+}
+
+body header .wrapper nav button:hover {
+  background-color: #072d51;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body header .wrapper nav button:hover a {
+  color: white;
+}
+
+body header .main__section {
+  width: 49%;
+  height: 75vh;
+  line-height: 1.2;
+  position: relative;
+}
+
+body header .main__section :nth-child(1) {
+  font-size: 25px;
+  color: #1d92ff;
+}
+
+body header .main__section .main_heading {
+  font-size: 60px;
+  color: white;
+}
+
+body header .main__section .main_heading span {
+  color: #1d92ff;
+  font-size: 65px;
+}
+
+body header .main__section .real__text__underdivs {
+  width: 120px;
+  height: 4px;
+  background-color: green;
+  position: absolute;
+  top: 100px;
+  right: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .main__section .real__text__underdivs .white__div {
+  width: 55%;
+  height: 4px;
+  background-color: white;
+}
+
+body header .main__section .real__text__underdivs .blue__div {
+  width: 45%;
+  height: 4px;
+  background-color: #1d92ff;
+}
+
+body header .main__section p {
+  color: white;
+  opacity: 0.6;
+  font-size: 21px;
+}
+
+body header .main__section p a {
+  font-size: 29px;
+  color: white;
+  opacity: 1.5;
+  text-decoration: underline;
+}
+
+body header .main__section button {
+  width: 180px;
+  height: 45px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid transparent;
+  margin: 20px 0 20px 0;
+}
+
+body header .main__section .main__btn__white {
+  color: #072d51;
+}
+
+body header .main__section .main__btn__white:hover {
+  background-color: #072d51;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body header .main__section .main__btn__white:hover a {
+  color: white;
+}
+
+body header .main__section .main__btn__blue {
+  color: white;
+  background-color: #072d51;
+  margin-left: 20px;
+  border: 1px solid #4b4a4a;
+}
+
+body header .main__section .main__btn__blue:hover {
+  background-color: white;
+  color: #072d51;
+  border: 1px solid #072d51;
+  cursor: pointer;
+}
+
+body header .main__section .main__btn__blue:hover a {
+  color: white;
+}
+
+body header .main__section .main__last__text {
+  padding: 10px 0 0 0;
+  width: 85%;
+  height: 60px;
+  border-top: 1px solid #a5a4a4;
+  color: white;
+  line-height: 1.7;
+}
+
+body header .main__section .main__last__text h2 {
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+body header .main__section .main__last__text span {
+  color: white;
+  opacity: 1;
+}
+
+body header .main__comp {
+  position: absolute;
+  top: 50px;
+  right: -10px;
+  width: 500px;
+}
+
+body header .main__clavish {
+  position: absolute;
+  top: 260px;
+  right: 150px;
+}
+
+body header .last__text__img {
+  position: absolute;
+  top: 505px;
+  left: 125px;
+}
+
+body .features__section {
+  width: 100%;
+  height: 110vh;
+  background-color: #fff;
+}
+
+body .features__section .wrapper {
+  width: 80%;
+  height: 110vh;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+body .features__section .features__section__nav {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .features__section .features__section__main {
+  width: 100%;
+  height: 84vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .features__section .features__section__main .features__section__img {
+  width: 50%;
+  height: 84vh;
+  position: relative;
+}
+
+body .features__section .features__section__main .features__section__img img {
+  width: 115%;
+  position: absolute;
+  left: -10rem;
+}
+
+body .features__section .features__section__main .features__section__text {
+  width: 50%;
+  height: 84vh;
+  padding: 50px 100px;
+  line-height: 1.2;
+}
+
+body .features__section .features__section__main .features__section__text span {
+  color: #1d92ff;
+  text-transform: uppercase;
+}
+
+body .features__section .features__section__main .features__section__text h1 {
+  font-size: 45px;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
+
+body .features__section .features__section__main .features__section__text p {
+  font-size: 17px;
+  opacity: 0.7;
+  margin: 7px 0;
+}
+
+body .features__section .features__section__main .features__section__text p a {
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+}
+
+body .features__section .features__section__main .features__section__text img {
+  width: 100%;
+  margin: 5px 0;
+}
+
+body .testimonial__section {
+  width: 100%;
+  height: 130vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+body .testimonial__section .wrapper {
+  width: 80%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .testimonial__section .wrapper .testimonial__section__img {
+  width: 50%;
+  height: 90vh;
+  background-image: url("./imgs/Rectangle 100.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body .testimonial__section .wrapper .testimonial__section__img img {
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 120%;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text {
+  width: 50%;
+  height: 90vh;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text span {
+  font-size: 25px;
+  color: #1d92ff;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text h1 {
+  font-size: 45px;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text button {
+  width: 190px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid transparent;
+  margin: 20px 10px 20px 0;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text .testimonial__btn__white {
+  color: #1d92ff;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text .testimonial__btn__white:hover {
+  background-color: #1d92ff;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text .testimonial__btn__white:hover a {
+  color: white;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text .testimonial__btn__blue {
+  color: white;
+  background-color: #1d92ff;
+  margin-left: 20px;
+  border: 1px solid transparent;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text .testimonial__btn__blue:hover {
+  background-color: white;
+  color: #1d92ff;
+  border: 1px solid #1d92ff;
+  cursor: pointer;
+}
+
+body .testimonial__section .wrapper .testimonial__section__text .testimonial__btn__blue:hover a {
+  color: white;
+}
+
+body .pricing__section {
+  width: 100%;
+  height: 140vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .pricing__section .wrapper {
+  width: 80%;
+  height: 120vh;
+}
+
+body .pricing__section .wrapper .pricing__section__nav {
+  width: 100%;
+  height: 28vh;
+  text-align: center;
+}
+
+body .pricing__section .wrapper .pricing__section__nav span {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #1d92ff;
+}
+
+body .pricing__section .wrapper .pricing__section__nav h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
+
+body .pricing__section .wrapper .pricing__section__nav p {
+  font-size: 19px;
+  opacity: 0.7;
+  margin: 7px 0;
+}
+
+body .pricing__section .wrapper .pricing__section__nav p a {
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+}
+
+body .pricing__section .wrapper .pricing__section__main {
+  width: 100%;
+  height: 85vh;
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  border: 2.5px dashed blue;
+}
+
+body .pricing__section .wrapper .pricing__section__main .pricing__section__main__items {
+  width: 99%;
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+body .pricing__section .wrapper .pricing__section__main .pricing__section__main__items .vector {
+  top: 58px;
+  position: absolute;
+}
+
+body .pricing__section .wrapper .pricing__section__main .pricing__section__main__items h1 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+body .pricing__section .wrapper .pricing__section__main .pricing__section__main__items p {
+  opacity: 0.7;
+}
+
+body .CTA__section {
+  width: 100%;
+  height: 140vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .CTA__section .wrapper {
+  width: 80%;
+  height: 110vh;
+}
+
+body .CTA__section .wrapper .CTA__section__nav {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+body .CTA__section .wrapper .CTA__section__nav h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 7px 0;
+}
+
+body .CTA__section .wrapper .CTA__section__nav p {
+  font-size: 19px;
+  opacity: 0.7;
+  margin: 7px 0;
+}
+
+body .CTA__section .wrapper .CTA__section__main {
+  width: 100%;
+  height: calc(110vh - 150px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div {
+  -webkit-box-shadow: 0 0 1px 0 black;
+          box-shadow: 0 0 1px 0 black;
+  width: 33%;
+  height: calc(100vh - 100px);
+  background-color: white;
+  text-align: center;
+  border-radius: 25px;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div h1,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div h1 {
+  font-size: 30px;
+  margin: 15px 0;
+  font-weight: normal;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div p,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div p {
+  font-size: 20px;
+  padding: 5px 40px 30px;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div span,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div span {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .like__btn__white_div,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .like__btn__white_div {
+  width: 70%;
+  height: 50px;
+  background-color: gold;
+  border-radius: 25px;
+  margin: 20px auto;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__img_div,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__img_div {
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div button,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div button {
+  width: 180px;
+  height: 45px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid transparent;
+  margin: 20px 0 20px 0;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__btn__white,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__btn__white {
+  color: #1d92ff;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__btn__white:hover,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__btn__white:hover {
+  background-color: #072d51;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__btn__white:hover a,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__btn__white:hover a {
+  color: white;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__btn__blue,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__btn__blue {
+  color: white;
+  background-color: #1d92ff;
+  margin-left: 20px;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__btn__blue:hover,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__btn__blue:hover {
+  background-color: white;
+  color: #1d92ff;
+  border: 1px solid #1d92ff;
+  cursor: pointer;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__white_div .CTA__btn__blue:hover a,
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .CTA__btn__blue:hover a {
+  color: white;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div {
+  height: 102vh;
+  background-color: #072d51;
+  border-radius: 25px;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div .like__btn__blue_div {
+  width: 70%;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#bbff00), to(#00c3ff));
+  background: linear-gradient(left, #bbff00, #00c3ff);
+  border-radius: 25px;
+  margin: 25px auto;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div h1 {
+  font-size: 30px;
+  margin: 20px 0;
+  font-weight: normal;
+  color: white;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div p {
+  font-size: 20px;
+  color: white;
+  padding: 10px 40px 30px;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div span {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+body .CTA__section .wrapper .CTA__section__main .CTA__section__main__blue_div button {
+  margin: 50px 0;
+}
+
+body footer {
+  width: 100%;
+  height: 85vh;
+  margin-top: 50px;
+  position: relative;
+}
+
+body footer .footer__nav {
+  width: 80%;
+  height: 30vh;
+  background-color: #072d51;
+  background-image: url("./imgs//Mask Group.png");
+  background-position: center;
+  border-radius: 15px;
+  position: absolute;
+  top: 20px;
+  left: 140px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .footer__nav .footer__nav__text_div {
+  width: 45%;
+  height: 30vh;
+  padding: 30px 0;
+  line-height: 1.3;
+}
+
+body footer .footer__nav .footer__nav__text_div h1 {
+  font-size: 35px;
+  color: white;
+}
+
+body footer .footer__nav .footer__nav__text_div p {
+  font-size: 18.3px;
+  color: white;
+  opacity: 0.7;
+}
+
+body footer .footer__nav .footer__nav__input_div {
+  width: 40%;
+  height: 10vh;
+  border-radius: 45px;
+  border: 1px solid white;
+  position: relative;
+}
+
+body footer .footer__nav .footer__nav__input_div .footer__nav__input_div_img1 {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+body footer .footer__nav .footer__nav__input_div .footer__nav__input_div_img2 {
+  position: absolute;
+  right: 40px;
+  top: 18px;
+}
+
+body footer .footer__nav .footer__nav__input_div input {
+  width: 300px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: aqua;
+  font-size: 20px;
+}
+
+body footer .footer__nav .footer__nav__input_div input::-webkit-input-placeholder {
+  font-size: 20px;
+}
+
+body footer .footer__nav .footer__nav__input_div input:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+body footer .footer__nav .footer__nav__input_div input::-ms-input-placeholder {
+  font-size: 20px;
+}
+
+body footer .footer__nav .footer__nav__input_div input::placeholder {
+  font-size: 20px;
+}
+
+body footer .footer__main {
+  width: 100%;
+  height: 55vh;
+  position: absolute;
+  top: 180px;
+  background-color: #070c11;
+}
+
+body footer .footer__main .wrapper {
+  width: 80%;
+  height: 55vh;
+  margin: 0 auto;
+  background-color: #070c11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .footer__main .wrapper :nth-child(1) svg {
+  margin: 10px 0 15px 0;
+}
+
+body footer .footer__main .wrapper :nth-child(1) span {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+body footer .footer__main .wrapper .footer__item {
+  height: 100px;
+  position: relative;
+}
+
+body footer .footer__main .wrapper .footer__item h1 {
+  font-size: 19px;
+  color: white;
+  margin: 10px 0;
+}
+
+body footer .footer__main .wrapper .footer__item p {
+  font-size: 17px;
+  color: white;
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
+body footer .footer__main .wrapper .footer__item p:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+body footer .footer__main .wrapper .footer__item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .footer__main .wrapper .footer__item ul li {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+body footer .footer__main .wrapper .footer__item ul li a {
+  color: white;
+  font-size: 18px;
+}
+
+body footer .footer__main .wrapper .footer__item input {
+  width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+}
+
+body footer .footer__main .wrapper .footer__item input::-webkit-input-placeholder {
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+body footer .footer__main .wrapper .footer__item input:-ms-input-placeholder {
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+body footer .footer__main .wrapper .footer__item input::-ms-input-placeholder {
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+body footer .footer__main .wrapper .footer__item input::placeholder {
+  font-size: 17px;
+  padding-left: 10px;
+}
+/*# sourceMappingURL=base.css.map */
